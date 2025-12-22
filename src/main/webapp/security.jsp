@@ -1,1 +1,2 @@
-<h1>Security</h1>
+<div class="card">Firewall Status: ACTIVE</div>
+<div class="card">Threat Monitoring: ENABLED</div>

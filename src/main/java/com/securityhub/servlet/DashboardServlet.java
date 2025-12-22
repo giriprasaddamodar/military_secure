@@ -1,1 +1,15 @@
-package com.securityhub.servlet; public class DashboardServlet { }
+package com.securityhub.servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.*;
+import java.io.IOException;
+
+@WebServlet("/dashboard")
+public class DashboardServlet extends HttpServlet {
+
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws IOException {
+
+        resp.sendRedirect("dashboard.jsp");
+    }
+}
