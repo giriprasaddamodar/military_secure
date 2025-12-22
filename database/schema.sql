@@ -1,0 +1,1 @@
+CREATE DATABASE security_hub_db;

@@ -1,0 +1,1 @@
+package com.securityhub.dao; public class MessageDAO { }

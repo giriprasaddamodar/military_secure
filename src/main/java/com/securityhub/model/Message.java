@@ -1,0 +1,1 @@
+package com.securityhub.model; public class Message { }
